@@ -93,6 +93,14 @@ namespace Silence.Macro
         }
 
         /// <summary>
+        /// Starts recording mouse and keyboard events at first specific event.
+        /// </summary>
+        public void StartRecordingAtEvent(Type eventType)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
         /// Stops recording mouse and keyboard events.
         /// </summary>
         public void StopRecording()
